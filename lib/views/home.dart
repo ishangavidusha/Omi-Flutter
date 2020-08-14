@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gradient_widgets/gradient_widgets.dart';
 import 'package:omi_game/theme/appTheme.dart';
+import 'package:omi_game/views/gameScreen.dart';
 import 'package:omi_game/widget/button.dart';
 
 class HomePage extends StatefulWidget {
@@ -49,16 +49,14 @@ class _HomePageState extends State<HomePage> {
                   KButton(
                     text: 'PLAY',
                     onPressed: () {
-
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => GameScreen()));
                     },
-                    icon: Icon(Icons.play_arrow),
                   ),
                   KButton(
                     text: 'INFO',
                     onPressed: () {
 
                     },
-                    icon: Icon(Icons.play_arrow),
                   ),
                 ],
               ),

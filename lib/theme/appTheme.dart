@@ -40,7 +40,7 @@ class AppTheme {
     fontSize: 36,
     letterSpacing: 0.4,
     height: 0.9,
-    color: darkerText,
+    color: nearlyWhite,
   );
 
   static const TextStyle headline = TextStyle(
@@ -56,7 +56,7 @@ class AppTheme {
     fontWeight: FontWeight.bold,
     fontSize: 16,
     letterSpacing: 0.18,
-    color: darkerText,
+    color: nearlyWhite,
   );
 
   static const TextStyle subtitle = TextStyle(
@@ -64,7 +64,7 @@ class AppTheme {
     fontWeight: FontWeight.w400,
     fontSize: 14,
     letterSpacing: -0.04,
-    color: darkText,
+    color: nearlyWhite,
   );
 
   static const TextStyle body2 = TextStyle(
@@ -72,7 +72,7 @@ class AppTheme {
     fontWeight: FontWeight.w400,
     fontSize: 14,
     letterSpacing: 0.2,
-    color: darkText,
+    color: nearlyWhite,
   );
 
   static const TextStyle body1 = TextStyle(
@@ -80,7 +80,7 @@ class AppTheme {
     fontWeight: FontWeight.w400,
     fontSize: 16,
     letterSpacing: -0.05,
-    color: darkText,
+    color: nearlyWhite,
   );
 
   static const TextStyle caption = TextStyle(

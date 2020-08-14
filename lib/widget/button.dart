@@ -4,13 +4,11 @@ import 'package:omi_game/theme/appTheme.dart';
 class KButton extends StatelessWidget {
   final String text;
   final Function onPressed;
-  final Icon icon;
 
   const KButton(
       {Key key,
       this.text,
-      this.onPressed,
-      this.icon,})
+      this.onPressed,})
       : super(key: key);
   @override
   Widget build(BuildContext context) {
@@ -21,10 +19,10 @@ class KButton extends StatelessWidget {
       height: 50.0,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(40),
-        gradient: LinearGradient(colors: [AppTheme.darkGreen, AppTheme.darkGreen]),
+        gradient: LinearGradient(colors: [AppTheme.darkGreen, AppTheme.lightGreen]),
         boxShadow: [
           BoxShadow(
-            color: AppTheme.lightGreen.withOpacity(0.4),
+            color: Colors.black.withOpacity(0.2),
             offset: Offset(0.0, 10),
             blurRadius: 10,
           ),

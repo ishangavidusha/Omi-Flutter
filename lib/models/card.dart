@@ -1,17 +1,19 @@
 
 import 'package:enum_to_string/enum_to_string.dart';
 
-class Card {
+class PlayingCard {
   CardSuit suit;
   CardRank rank;
   int value;
   String imagePath;
+  bool enable;
 
-  Card({
+  PlayingCard({
     this.suit,
     this.rank,
     this.value,
-    this.imagePath
+    this.imagePath,
+    this.enable,
   });
 
   set setValue(int value) {
