@@ -8,7 +8,6 @@ class UserHand extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double devWidth = MediaQuery.of(context).size.width;
-    double devHeight = MediaQuery.of(context).size.height;
     CardGame cardGame = Provider.of<CardGame>(context);
     double width = devWidth * 0.8;
     double padding = devWidth * 0.032;
