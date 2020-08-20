@@ -1,6 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:omi_game/models/card.dart';
-import 'package:omi_game/theme/appTheme.dart';
 
 class Hand {
   List<PlayingCard> cards;
