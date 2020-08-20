@@ -31,6 +31,7 @@ dependencies:
   gradient_widgets: ^0.5.2
   enum_to_string: ^1.0.9
   provider: ^4.3.2
+  get: ^3.4.6
 
 dev_dependencies:
   flutter_test:
